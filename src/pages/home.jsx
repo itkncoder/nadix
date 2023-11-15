@@ -66,48 +66,28 @@ const Home = () => {
                             </div>
                             <Link className="text-[#276968] hover:text-[#fff] hover:bg-[#276968] transition-all py-[14px] px-[28px] border border-[#276968] rounded-[4px]" to="/flights">See all</Link>
                         </div>
-                        <div className="mt-[50px]">
-                            <Swiper
-                                    spaceBetween={35}
-                                    slidesPerView={2.75}
-                                >
-                                <SwiperSlide>
-                                    <div className="px-[20px] py-[18px] shadow-xl w-fit rounded-[30px] bg-[#FAFBFC]">
-                                        <img src="https://www.travelandleisure.com/thmb/RQ3JmT8V2y2fhwr7NY0cgUumcCE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/phuket-thailand-karst-formation-phuket0327-92bd3ce9266148dba74cba5e36c711e2.jpg" alt="pic" className="w-[450px] h-[320px] object-cover rounded-[15px]" />
-                                        <div className="mt-[20px]">
-                                            <h1 className="text-[#276968] font-bold text-[30px]">Phuket</h1>
-                                            <p className="text-[#69747A] karla text-[18px] mt-[8px]"><i class="mr-[8px] fa-solid fa-location-dot text-[22px] text-[#69747A]"></i>Thailand</p>
-                                        </div>
-                                    </div>
-                                </SwiperSlide>
-                                <SwiperSlide>
-                                    <div className="px-[20px] py-[18px] shadow-xl w-fit rounded-[30px] bg-[#FAFBFC]">
-                                        <img src="https://a.cdn-hotels.com/gdcs/production18/d1838/041ae6b1-0a88-4c22-a648-53a22dd4a006.jpg?impolicy=fcrop&w=800&h=533&q=medium" alt="pic" className="w-[450px] h-[320px] object-cover rounded-[15px]" />
-                                        <div className="mt-[20px]">
-                                            <h1 className="text-[#276968] font-bold text-[30px]">Santorini</h1>
-                                            <p className="text-[#69747A] karla text-[18px] mt-[8px]"><i class="mr-[8px] fa-solid fa-location-dot text-[22px] text-[#69747A]"></i>Greece</p>
-                                        </div>
-                                    </div>
-                                </SwiperSlide>
-                                <SwiperSlide>
-                                    <div className="px-[20px] py-[18px] shadow-xl w-fit rounded-[30px] bg-[#FAFBFC]">
-                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/1200px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg" alt="pic" className="w-[450px] h-[320px] object-cover rounded-[15px]" />
-                                        <div className="mt-[20px]">
-                                            <h1 className="text-[#276968] font-bold text-[30px]">Paris</h1>
-                                            <p className="text-[#69747A] karla text-[18px] mt-[8px]"><i class="mr-[8px] fa-solid fa-location-dot text-[22px] text-[#69747A]"></i>France</p>
-                                        </div>
-                                    </div>
-                                </SwiperSlide>
-                                <SwiperSlide>
-                                    <div className="px-[20px] py-[18px] shadow-xl w-fit rounded-[30px] bg-[#FAFBFC]">
-                                        <img src="https://picsum.photos/500/350" alt="pic" className="w-[450px] h-[320px] object-cover rounded-[15px]" />
-                                        <div className="mt-[20px]">
-                                            <h1 className="text-[#276968] font-bold text-[30px]">Phuket</h1>
-                                            <p className="text-[#69747A] karla text-[18px] mt-[8px]"><i class="mr-[8px] fa-solid fa-location-dot text-[22px] text-[#69747A]"></i>Thailand</p>
-                                        </div>
-                                    </div>
-                                </SwiperSlide>
-                            </Swiper>
+                        <div className="mt-[50px] flex justify-between items-center gap-[20px]">
+                            <div className="px-[20px] py-[18px] shadow-xl w-fit rounded-[30px] bg-[#FAFBFC]">
+                                <img src="https://www.letsphuket.com/wp-content/uploads/phuket1.jpg" alt="pic" className="w-[450px] h-[320px] object-cover rounded-[15px]" />
+                                <div className="mt-[20px]">
+                                    <h1 className="text-[#276968] font-bold text-[30px]">Phuket</h1>
+                                    <p className="text-[#69747A] karla text-[18px] mt-[8px]"><i class="mr-[8px] fa-solid fa-location-dot text-[22px] text-[#69747A]"></i>Thailand</p>
+                                </div>
+                            </div>
+                            <div className="px-[20px] py-[18px] shadow-xl w-fit rounded-[30px] bg-[#FAFBFC]">
+                                <img src="https://a.cdn-hotels.com/gdcs/production18/d1838/041ae6b1-0a88-4c22-a648-53a22dd4a006.jpg?impolicy=fcrop&w=800&h=533&q=medium" alt="pic" className="w-[450px] h-[320px] object-cover rounded-[15px]" />
+                                <div className="mt-[20px]">
+                                    <h1 className="text-[#276968] font-bold text-[30px]">Santorini</h1>
+                                    <p className="text-[#69747A] karla text-[18px] mt-[8px]"><i class="mr-[8px] fa-solid fa-location-dot text-[22px] text-[#69747A]"></i>Greece</p>
+                                </div>
+                            </div>
+                            <div className="px-[20px] py-[18px] shadow-xl w-fit rounded-[30px] bg-[#FAFBFC]">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/1200px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg" alt="pic" className="w-[450px] h-[320px] object-cover rounded-[15px]" />
+                                <div className="mt-[20px]">
+                                    <h1 className="text-[#276968] font-bold text-[30px]">Paris</h1>
+                                    <p className="text-[#69747A] karla text-[18px] mt-[8px]"><i class="mr-[8px] fa-solid fa-location-dot text-[22px] text-[#69747A]"></i>France</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div className="mt-[60px] flex gap-[40px] justify-between">
